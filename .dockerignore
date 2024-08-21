@@ -1,0 +1,32 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Next.js
+.next
+out
+*.log
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+docker-compose*.yaml
+
+# Prisma
+prisma/migrations
+prisma/dev.db
+
+# Miscellaneous
+.git
+.gitignore
+README.md
+*.lockb
+*.tsbuildinfo
+*.env*
+!*.env.production
+!*.env.example
+.cache
+coverage
+.vscode
+.history
